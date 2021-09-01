@@ -51,14 +51,7 @@ export default function Layout({ children, title, description, isHeader = true, 
           {children}
         </div>
       </section>
-      <nav>
-        <ul>
-          <li><Link href='/'>Home</Link></li>
-          <li><Link href='/about'>About</Link></li>
-          <li><Link href='/hookdemo'>カウントアップ</Link></li>
-          <li><Link href='/reducerdemo'>To do List</Link></li>
-        </ul>
-      </nav>
+
       {isFooter && (getFooter())}
     </div>
 
